@@ -1,0 +1,13 @@
+.mainWrapper {
+  padding: 32px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.columnsWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}

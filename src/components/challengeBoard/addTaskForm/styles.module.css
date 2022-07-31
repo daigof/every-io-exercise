@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input {
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 0 16px;
+  outline: none;
+  min-width: 150px;
+  font-size: 18px;
+}
+
+.button {
+  box-sizing: border-box;
+  background-color: #2A64F6;
+  height: 50px;
+  width: 60px;
+  color: #FFFFFF;
+  font-size: 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
